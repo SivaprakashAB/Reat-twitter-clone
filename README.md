@@ -118,75 +118,75 @@ src/
 
 The application uses JSON files (posts.json, trending.json) in the data/ directory to store post data. Below is the structure of a post:
 code
+```json
 [
-    {
-      "id": 1,
-      "user": "John Doe",
-      "handle": "@johndoe",
-      "profilePic": "Cric.jpeg",
-      "content": "Exploring the beauty of nature.",
-      "category": "forYou",
-      "likes": 10,
-      "retweets": 2,
-      "comments": [],
-      "isRetweeted": false,
-      "isLiked": false
-    },
-    {
-      "id": 2,
-      "user": "Jane Smith",
-      "handle": "@janesmith",
-      "profilePic": "cricket.jpeg",
-      "content": "Excited for the new tech conference!",
-      "category": "forYou",
-      "likes": 8,
-      "retweets": 1,
-      "comments": [],
-      "isRetweeted": false,
-      "isLiked": false
-    }
-  ]
+  {
+    "id": 1,
+    "user": "John Doe",
+    "handle": "@johndoe",
+    "profilePic": "Cric.jpeg",
+    "content": "Exploring the beauty of nature.",
+    "category": "forYou",
+    "likes": 10,
+    "retweets": 2,
+    "comments": [],
+    "isRetweeted": false,
+    "isLiked": false
+  },
+  {
+    "id": 2,
+    "user": "Jane Smith",
+    "handle": "@janesmith",
+    "profilePic": "cricket.jpeg",
+    "content": "Excited for the new tech conference!",
+    "category": "forYou",
+    "likes": 8,
+    "retweets": 1,
+    "comments": [],
+    "isRetweeted": false,
+    "isLiked": false
+  }
+]
   These JSON files simulate an API, providing data for posts and user interactions.
 
 Code: (trending.json)
-
+```json
 {
-    "trendingTopics": [
-      "#CSKvsRCB",
-      "#SupremeCourtOfIndia",
-      "#Budget2025",
-      "#ArtificialIntelligence",
-      "#TechTrends"
-    ],
-    "posts": [
-      {
-        "topic": "#CSKvsRCB",
-        "posts": [
-          {
-            "id": 1,
-            "user": "CricketFan23",
-            "handle": "@cricketlover",
-            "profilePic": "Cric.jpeg",
-            "content": "What a thrilling match between CSK and RCB! Dhoni still got it.  #CSKvsRCB",
-            "likes": 120,
-            "retweets": 40,
-            "comments": []
-          },
-          {
-            "id": 2,
-            "user": "SportsGuru",
-            "handle": "@sports_guru",
-            "profilePic": "cricket.jpeg",
-            "content": "RCB's bowling attack needs serious improvement. #CSKvsRCB",
-            "likes": 95,
-            "retweets": 30,
-            "comments": []
-          }
-        ]
-      }
-    ]
-  }
-  
+  "trendingTopics": [
+    "#CSKvsRCB",
+    "#SupremeCourtOfIndia",
+    "#Budget2025",
+    "#ArtificialIntelligence",
+    "#TechTrends"
+  ],
+  "posts": [
+    {
+      "topic": "#CSKvsRCB",
+      "posts": [
+        {
+          "id": 1,
+          "user": "CricketFan23",
+          "handle": "@cricketlover",
+          "profilePic": "Cric.jpeg",
+          "content": "What a thrilling match between CSK and RCB! Dhoni still got it. #CSKvsRCB",
+          "likes": 120,
+          "retweets": 40,
+          "comments": []
+        },
+        {
+          "id": 2,
+          "user": "SportsGuru",
+          "handle": "@sports_guru",
+          "profilePic": "cricket.jpeg",
+          "content": "RCB's bowling attack needs serious improvement. #CSKvsRCB",
+          "likes": 95,
+          "retweets": 30,
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
 
 ### UI/UX Guidelines
 
