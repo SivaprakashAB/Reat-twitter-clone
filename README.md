@@ -146,7 +146,7 @@ code
     "isRetweeted": false,
     "isLiked": false
   }
-]
+]```
   These JSON files simulate an API, providing data for posts and user interactions.
 
 Code: (trending.json)
@@ -187,6 +187,9 @@ Code: (trending.json)
     }
   ]
 }
+```
+
+
 
 ### UI/UX Guidelines
 
