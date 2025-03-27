@@ -1,4 +1,4 @@
-# X-Clone
+# Twitter-Clone
 
 # Social Media Application
 
@@ -168,7 +168,7 @@ Code: (trending.json)
             "user": "CricketFan23",
             "handle": "@cricketlover",
             "profilePic": "Cric.jpeg",
-            "content": "What a thrilling match between CSK and RCB! Dhoni still got it. 💪 #CSKvsRCB",
+            "content": "What a thrilling match between CSK and RCB! Dhoni still got it.  #CSKvsRCB",
             "likes": 120,
             "retweets": 40,
             "comments": []
