@@ -199,19 +199,27 @@ Code: (trending.json)
 - *Modal Views:* Detailed post information is displayed in modals for focused view.
 
 
+**Contributing (Fork the Repository)**
+1.**Fork the repository on GitHub.**
 
-### Contributing (Fork the repository): 
+2.**Clone your fork to your local machine:**
 
-Create a feature branch:
-bash
-git checkout -b feature/Feature
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
 
-Commit your changes:
-bash
-git commit -m 'Added <Feature>'
+3.**Ensure you are on the main branch and pull the latest changes:**
 
-Push to the branch:
-bash
-git push origin feature/Feature
+git checkout main
+git pull origin main
 
-Open a Pull Request on GitHub.
+4.**Create a feature branch:**
+
+git checkout -b feature/<Feature-Name>
+
+5.**Make changes and commit:**
+
+git add .
+git commit -m "Added <Feature>"
+
+6.**Push your changes to your fork:**
+git push origin feature/<Feature-Name>
