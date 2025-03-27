@@ -81,31 +81,30 @@ The application will launch in your default browser at http://localhost:5173.
 ## Project Structure and Best Practices
 ### Folder Structure
 bash
-src/
-┣ components/            # All React components
-┃ ┃-Feed.css     
-┃ ┃-Feed.jsx
-┃ ┃-RightSidebar.css
-┃ ┃-RightSidebar.jsx
-┃ ┃-Sidebar.jsx
-┃ ┃-Sidebar.css
-┃-pages               # All React Pages
-┃ ┣ Community.css
-┃ ┣ Community.jsx
-┃ ┣ Explore.css
-┃ ┣ Explore.jsx
-┃ ┣ Notifications.css
-┃ ┃- Notifications.jsx
-┃ ┣ Profile.css
-┃ ┣ Profile.jsx
-┣ App.css                # Main application styles
-┣ App.js
-┣ App.jsx                # Root application component
-┣ main.jsx               # Entry point for React
-┣ index.css
-┣ index.js
-┣ styles.css
-┗ variables.css          # CSS variables for consistent styling
+src/  
+ ┣ components/  # All React components  
+ ┃ ┣ Feed.css  
+ ┃ ┣ Feed.jsx  
+ ┃ ┣ RightSidebar.css  
+ ┃ ┣ RightSidebar.jsx  
+ ┃ ┣ Sidebar.jsx  
+ ┃ ┣ Sidebar.css  
+ ┣ pages/  # All React Pages  
+ ┃ ┣ Community.css  
+ ┃ ┣ Community.jsx  
+ ┃ ┣ Explore.css  
+ ┃ ┣ Explore.jsx  
+ ┃ ┣ Notifications.css  
+ ┃ ┣ Notifications.jsx  
+ ┃ ┣ Profile.css  
+ ┃ ┣ Profile.jsx  
+ ┣ App.css  # Main application styles  
+ ┣ App.js  
+ ┣ App.jsx  # Root application component  
+ ┣ main.jsx  # Entry point for React  
+ ┣ index.css  
+ ┣ index.js  
+ ┣ styles.css  # CSS variables for consistent styling  
 
 
 ### Best Practices
