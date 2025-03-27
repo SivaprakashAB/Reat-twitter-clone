@@ -50,7 +50,7 @@ These components are combined to form the application's pages, ensuring reusabil
 
 ## GitHub Repository
 
-The source code for this project : https://github.com/gladwin2802/x-clone 
+The source code for this project : https://github.com/SivaprakashAB/Reat-twitter-clone
 
 ## Getting Started
 
@@ -196,19 +196,7 @@ Code: (trending.json)
 - *Interactive Elements:* Buttons for likes, retweets, replies, and bookmarks provide visual feedback.
 - *Modal Views:* Detailed post information is displayed in modals for focused view.
 
-### Deployment Details
 
-The application is deployed on Netlify, with automatic redeployment of the latest main branch contents enabled by linking the GitHub repository. The live version is available at:
-
-https://react-clone-siva.netlify.app/
-
-The deployment process includes:
-
-- *Repository Access:* Netlify is granted permission to access the GitHub repo.
-- *Automatic Builds:* Each push to the main branch triggers Netlify to run npm install and npm run build.
-- *Deployment:* The built files are automatically deployed to Netlify.
-
-This setup provides a seamless deployment process with minimal manual effort.
 
 ### Contributing (Fork the repository): 
 
