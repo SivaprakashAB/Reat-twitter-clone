@@ -1,0 +1,88 @@
+.app-layout {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: gray;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Left Sidebar */
+.sidebar {
+  width: 270px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hide Sidebar in Mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+    width: 100vw;
+    background: white;
+  }
+  .sidebar.show {
+    transform: translateX(0);
+  }
+}
+
+/* Right Sidebar */
+.right-sidebar {
+  width: 270px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hide Right Sidebar in Mobile */
+@media (max-width: 768px) {
+  .right-sidebar {
+    transform: translateX(100%);
+    width: 100vw;
+    background: white;
+  }
+  .right-sidebar.show {
+    transform: translateX(0);
+  }
+}
+
+/* Sidebar Toggle Button */
+.menu-btn {
+  position: absolute;
+  top: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/* Left Sidebar Button */
+.menu-btn.left {
+  left: 10px;
+}
+
+/* Right Sidebar Button */
+.menu-btn.right {
+  right: 10px;
+}
+
+/* Hide Buttons on Desktop */
+@media (min-width: 769px) {
+  .menu-btn {
+    display: none;
+  }
+}

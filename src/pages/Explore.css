@@ -1,0 +1,163 @@
+/* Reset Defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main Container */
+  .explore-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;  /* Centers the container */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-height: 600px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  
+  /* Title */
+  .explore-title {
+    color: blue;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Loading & Error Messages */
+  .loading-message,
+  .error-message {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .loading-message {
+    color: #666;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  /* Topic List */
+  .topics-list {
+    overflow-y: auto;
+  }
+  
+  /* Topic Card */
+  .topic-card {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
+  /* Topic Title */
+  .topic-title {
+    color: #1a1a2e;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  /* Post Card */
+  .post-card {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .post-card.even {
+    background-color: #f5f5f5;
+  }
+  
+  .post-card.odd {
+    background-color: #e0e0e0;
+  }
+  
+  /* Post Header */
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  /* Profile Picture */
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* User Info */
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .user-handle {
+    color: gray;
+    margin-left: 5px;
+  }
+  
+  /* Post Content */
+  .post-content {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Post Stats */
+  .post-stats {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* No Posts Message */
+  .no-posts {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Responsive Design */
+  
+  /* Tablets (max-width: 768px) */
+  @media (max-width: 768px) {
+    .explore-container {
+      max-width: 90%;
+      border: none;
+      border-radius: 0;
+    }
+  
+    .explore-title {
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* Mobile Devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    .explore-container {
+      max-width: 100%;
+      margin: 10px 0;
+      padding: 8px;
+    }
+  
+    .explore-title {
+      font-size: 1.2rem;
+    }
+  
+    .topic-title {
+      font-size: 16px;
+    }
+  
+    .post-content {
+      font-size: 13px;
+    }
+  }
+  

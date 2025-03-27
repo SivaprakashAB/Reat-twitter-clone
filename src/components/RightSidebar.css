@@ -1,0 +1,120 @@
+.right-sidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  border-left: 3px solid #ddd;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+/* Hide Right Sidebar in Mobile & Tablet by default */
+@media screen and (max-width: 1024px) {
+  .right-sidebar {
+      display: none;
+      position: fixed;
+      right: -250px; /* Initially off-screen */
+      z-index: 1000;
+      transition: right 0.3s ease-in-out;
+  }
+}
+
+/* Show Right Sidebar when toggled */
+.right-sidebar.open {
+  display: block;
+  right: 0;
+}
+
+/* Sidebar Title */
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.trending-list {
+  list-style: none;
+  padding: 0;
+}
+
+.trending-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.trending-item:hover {
+  background-color: #e9ecef;
+}
+
+.trending-item.active {
+  background-color: #007bff !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.posts-section {
+  margin-top: 15px;
+}
+
+.posts-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.post-card {
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-user-name {
+  font-weight: bold;
+}
+
+.post-user-handle {
+  font-size: 0.85rem;
+  color: gray;
+}
+
+.post-content {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.no-posts {
+  color: gray;
+  font-style: italic;
+}

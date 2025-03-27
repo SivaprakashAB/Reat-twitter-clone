@@ -1,0 +1,322 @@
+{
+    "trendingTopics": [
+      "#CSKvsRCB",
+      "#SupremeCourtOfIndia",
+      "#Budget2025",
+      "#ArtificialIntelligence",
+      "#TechTrends",
+      "#StartupIndia",
+      "#EVRevolution",
+      "#CryptoUpdate",
+      "#ClimateChange",
+      "#MoonMission",
+      "#FIFAWorldCup",
+      "#IPL2025",
+      "#Oscars2025",
+      "#AIvsHuman",
+      "#StockMarket",
+      "#IndiaElections",
+      "#GlobalWarming",
+      "#MentalHealthAwareness",
+      "#SpaceExploration",
+      "#WomenInTech"
+    ],
+    "posts": [
+      {
+        "topic": "#CSKvsRCB",
+        "posts": [
+          {
+            "id": 1,
+            "user": "CricketFan23",
+            "handle": "@cricketlover",
+            "profilePic": "Cric.jpeg",
+            "content": "What a thrilling match between CSK and RCB! Dhoni still got it. 💪 #CSKvsRCB",
+            "likes": 120,
+            "retweets": 40,
+            "comments": []
+          },
+          {
+            "id": 2,
+            "user": "SportsGuru",
+            "handle": "@sports_guru",
+            "profilePic": "cricket.jpeg",
+            "content": "RCB's bowling attack needs serious improvement. #CSKvsRCB",
+            "likes": 95,
+            "retweets": 30,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#SupremeCourtOfIndia",
+        "posts": [
+          {
+            "id": 3,
+            "user": "LegalEagle",
+            "handle": "@lawupdates",
+            "profilePic": "court.jpeg",
+            "content": "A historic verdict by the Supreme Court of India today! #SupremeCourtOfIndia",
+            "likes": 180,
+            "retweets": 50,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#Budget2025",
+        "posts": [
+          {
+            "id": 4,
+            "user": "FinanceExpert",
+            "handle": "@budget_analysis",
+            "profilePic": "court.jpeg",
+            "content": "Tax cuts for startups? A great move in #Budget2025!",
+            "likes": 200,
+            "retweets": 60,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#ArtificialIntelligence",
+        "posts": [
+          {
+            "id": 5,
+            "user": "TechGeek",
+            "handle": "@ai_trends",
+            "profilePic": "AI.jpeg",
+            "content": "AI is shaping the future. Can we keep up? #ArtificialIntelligence",
+            "likes": 220,
+            "retweets": 70,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#TechTrends",
+        "posts": [
+          {
+            "id": 6,
+            "user": "Innovator",
+            "handle": "@tech_updates",
+            "profilePic": "AI.jpeg",
+            "content": "5G is going to change everything. Are we ready? #TechTrends",
+            "likes": 250,
+            "retweets": 80,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#EVRevolution",
+        "posts": [
+          {
+            "id": 7,
+            "user": "GreenTech",
+            "handle": "@ev_news",
+            "profilePic": "Cric.jpeg",
+            "content": "EVs are the future! Charging stations need to keep up. #EVRevolution",
+            "likes": 280,
+            "retweets": 90,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#CryptoUpdate",
+        "posts": [
+          {
+            "id": 8,
+            "user": "CryptoMaster",
+            "handle": "@crypto_trader",
+            "profilePic": "court.jpeg",
+            "content": "Bitcoin surges again! What’s next? 🚀 #CryptoUpdate",
+            "likes": 300,
+            "retweets": 100,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#ClimateChange",
+        "posts": [
+          {
+            "id": 9,
+            "user": "EcoWarrior",
+            "handle": "@sustainable_future",
+            "profilePic": "Cric.jpeg",
+            "content": "Global temperatures are rising! We must act now. 🌍 #ClimateChange",
+            "likes": 350,
+            "retweets": 110,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#MoonMission",
+        "posts": [
+          {
+            "id": 10,
+            "user": "SpaceExplorer",
+            "handle": "@nasa_updates",
+            "profilePic": "king.jpeg",
+            "content": "Next mission to the Moon scheduled for 2026! 🚀 #MoonMission",
+            "likes": 400,
+            "retweets": 120,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#MentalHealthAwareness",
+        "posts": [
+          {
+            "id": 11,
+            "user": "WellnessGuru",
+            "handle": "@mindful_living",
+            "profilePic": "AI.jpeg",
+            "content": "It's okay to ask for help. Mental health matters. ❤️ #MentalHealthAwareness",
+            "likes": 410,
+            "retweets": 130,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#GamingNews",
+        "posts": [
+          {
+            "id": 12,
+            "user": "GamerX",
+            "handle": "@gaming_world",
+            "profilePic": "king.jpeg",
+            "content": "New PlayStation 6 rumors are buzzing! What do you think? 🎮 #GamingNews",
+            "likes": 320,
+            "retweets": 95,
+            "comments": []
+          }
+        ]
+      },
+      {
+        "topic": "#FitnessGoals",
+        "posts": [
+          {
+            "id": 13,
+            "user": "FitLife",
+            "handle": "@fitness_motivation",
+            "profilePic": "AI.jpeg",
+            "content": "Never skip leg day! 🏋️‍♂️ Stay consistent. #FitnessGoals",
+            "likes": 280,
+            "retweets": 85,
+            "comments": []
+          }
+        ]
+      },
+      {
+            "topic": "#StockMarket",
+            "posts": [
+              {
+                "id": 14,
+                "user": "InvestorPro",
+                "handle": "@market_insights",
+                "profilePic": "court.jpeg",
+                "content": "Markets are volatile! Is it time to buy or sell? 📈 #StockMarket",
+                "likes": 260,
+                "retweets": 75,
+                "comments": []
+              }
+            ]
+          },
+          {
+            "topic": "#IndiaElections",
+            "posts": [
+              {
+                "id": 15,
+                "user": "PoliticalAnalyst",
+                "handle": "@india_votes",
+                "profilePic": "court.jpeg",
+                "content": "Election fever is rising! Who do you think will win? 🗳️ #IndiaElections",
+                "likes": 300,
+                "retweets": 90,
+                "comments": []
+              }
+            ]
+          },
+          {
+            "topic": "#GlobalWarming",
+            "posts": [
+              {
+                "id": 16,
+                "user": "ClimateActivist",
+                "handle": "@save_the_earth",
+                "profilePic": "Cric.jpeg",
+                "content": "The ice caps are melting faster than ever! We need change. 🌍 #GlobalWarming",
+                "likes": 340,
+                "retweets": 100,
+                "comments": []
+              }
+            ]
+          },
+          {
+            "topic": "#SpaceExploration",
+            "posts": [
+              {
+                "id": 17,
+                "user": "AstroNerd",
+                "handle": "@cosmos_updates",
+                "profilePic": "AI.jpeg",
+                "content": "A new exoplanet was discovered! Could it support life? 🪐 #SpaceExploration",
+                "likes": 380,
+                "retweets": 110,
+                "comments": []
+              }
+            ]
+          },
+          {
+            "topic": "#WomenInTech",
+            "posts": [
+              {
+                "id": 18,
+                "user": "TechChampion",
+                "handle": "@women_in_tech",
+                "profilePic": "king.jpeg",
+                "content": "More women are entering the tech industry! Let's keep pushing for equality. 💻 #WomenInTech",
+                "likes": 400,
+                "retweets": 120,
+                "comments": []
+              }
+            ]
+          },
+          {
+            "topic": "#Oscars2025",
+            "posts": [
+              {
+                "id": 19,
+                "user": "MovieBuff",
+                "handle": "@cinema_fan",
+                "profilePic": "Cricket.jpeg",
+                "content": "Who will take home Best Picture this year? 🎬 #Oscars2025",
+                "likes": 420,
+                "retweets": 130,
+                "comments": []
+              }
+            ]
+          },
+          {
+            "topic": "#AIvsHuman",
+            "posts": [
+              {
+                "id": 20,
+                "user": "Futurist",
+                "handle": "@ai_discussion",
+                "profilePic": "Cric.jpeg",
+                "content": "Will AI ever truly surpass human intelligence? 🤖 #AIvsHuman",
+                "likes": 450,
+                "retweets": 140,
+                "comments": []
+              }
+            ]
+          }
+    ]
+  }
+  

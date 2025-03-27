@@ -1,0 +1,78 @@
+/* Ensure sidebar and right sidebar are spaced properly */
+.notifications-page {
+  display: flex;
+  height: 100vh; /* Full page height */
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 250px; /* Fixed width */
+  height: 100vh;
+  position: fixed; /* Stays in place */
+  left: 0;
+  top: 0;
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content */
+.notifications-container {
+  margin-left: 280px; /* Increased margin for spacing */
+  margin-right: 280px; /* Space before right sidebar */
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 100vh; /* Restrict height */
+}
+
+/* Two Column Layout */
+.notifications-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 20px; /* Space between columns */
+  padding: 20px;
+}
+
+/* Individual Notification Cards */
+.notification-card {
+  background: white;
+  border-radius: 10px;
+  margin-top : 3px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.notification-card:hover {
+  transform: scale(1.02);
+}
+
+
+@media (max-width: 768px) {
+  .community-container, .notifications-container {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 10px;
+  }
+
+  .notifications-content {
+      grid-template-columns: 1fr; /* Switch to a single column */
+  }
+
+  .sidebar, .right-sidebar {
+      display: none; /* Hide sidebars on smaller screens */
+  }
+}
+
+/* Right Sidebar Styling */
+.right-sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}

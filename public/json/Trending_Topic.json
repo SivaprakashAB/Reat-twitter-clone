@@ -1,0 +1,107 @@
+{
+    "trendingTopics": [
+      "Artificial Intelligence",
+      "Climate Change",
+      "Quantum Computing",
+      "Space Exploration",
+      "Cryptocurrency"
+    ],
+    "posts": [
+      {
+        "topic": "Artificial Intelligence",
+        "posts": [
+          {
+            "id": 1,
+            "user": "John Doe",
+            "handle": "@johndoe",
+            "profilePic": "AI.jpeg",
+            "content": "AI is transforming the future! ",
+            "likes": 120,
+            "retweets": 45,
+            "comments": ["Amazing!", "AI is scary!", "Tell me more."]
+          },
+          {
+            "id": 2,
+            "user": "Alice Brown",
+            "handle": "@alicebrown",
+            "profilePic": "AI.jpeg",
+            "content": "In this world AI usage is Important! ",
+            "likes": 95,
+            "retweets": 33,
+            "comments": ["Agreed!", "Will AI take jobs?", "Super helpful!"]
+          }
+        ]
+      },
+      {
+        "topic": "Climate Change",
+        "posts": [
+          {
+            "id": 3,
+            "user": "Jane Smith",
+            "handle": "@janesmith",
+            "profilePic": "nature.jpeg",
+            "content": "We need urgent action on climate change! ",
+            "likes": 85,
+            "retweets": 30,
+            "comments": ["Totally agree!", "What can we do?"]
+          },
+          {
+            "id": 4,
+            "user": "Mike Johnson",
+            "handle": "@mikejohnson",
+            "profilePic": "nature.jpeg",
+            "content": "Renewable energy is the future. ",
+            "likes": 78,
+            "retweets": 25,
+            "comments": ["Solar power is amazing!", "We need more action!"]
+          }
+        ]
+      },
+      {
+        "topic": "Quantum Computing",
+        "posts": [
+          {
+            "id": 5,
+            "user": "Emma Wilson",
+            "handle": "@emmawilson",
+            "profilePic": "quantum.jpeg",
+            "content": "Quantum computers will change cryptography forever! ",
+            "likes": 110,
+            "retweets": 50,
+            "comments": ["That's crazy!", "How do they work?", "Future is now."]
+          }
+        ]
+      },
+      {
+        "topic": "Space Exploration",
+        "posts": [
+          {
+            "id": 6,
+            "user": "Elon Musk",
+            "handle": "@elonmusk",
+            "profilePic": "space.jpeg",
+            "content": "Mars, here we come! ",
+            "likes": 500,
+            "retweets": 200,
+            "comments": ["Can't wait!", "SpaceX is awesome!", "When is the launch?"]
+          }
+        ]
+      },
+      {
+        "topic": "Cryptocurrency",
+        "posts": [
+          {
+            "id": 7,
+            "user": "Crypto King",
+            "handle": "@cryptoking",
+            "profilePic": "crypto.jpeg",
+            "content": "Bitcoin to the moon! ",
+            "likes": 300,
+            "retweets": 120,
+            "comments": ["HODL!", "Is it too late to invest?", "Best investment!"]
+          }
+        ]
+      }
+    ]
+  }
+  

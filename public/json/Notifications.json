@@ -1,0 +1,36 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "type": "comment",
+      "user": "Jane Smith",
+      "message": "commented on your post",
+      "time": "4h ago",
+      "isFollowing": false
+    },
+    {
+      "id": 2,
+      "type": "reply",
+      "user": "Emma Wilson",
+      "message": "replied to your comment",
+      "time": "5h ago",
+      "isFollowing": false
+    },
+    {
+      "id": 3,
+      "type": "follow",
+      "user": "Alice Johnson",
+      "message": "started following you",
+      "time": "1 day ago",
+      "isFollowing": true
+    },
+    {
+      "id": 4,
+      "type": "like",
+      "user": "Michael Brown",
+      "message": "liked your post",
+      "time": "2 days ago",
+      "isFollowing": true
+    }
+  ]
+}

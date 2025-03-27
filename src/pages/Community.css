@@ -1,0 +1,84 @@
+/* Main Layout */
+.community-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width :650px;
+  background-color: #f5f5f5;
+  margin-left: 300px;
+  margin-top : 5px;
+  margin-bottom : 5px;
+  color: #333;
+}
+
+/* Main Content */
+.community-container {
+  width: 100%;
+  padding: 20px;
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: 100vh;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Heading */
+.community-container h1 {
+  color: #16213e;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Discussion Cards */
+.discussion-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+  border-left: 5px solid #e94560;
+}
+
+.discussion-card:hover {
+  transform: scale(1.02);
+  background-color: #f9f9f9;
+}
+
+.discussion-card h3 {
+  color: #1a1a2e;
+}
+
+.discussion-card p {
+  color: #555;
+  font-size: 14px;
+}
+
+.discussion-card span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .community-container {
+      max-width: 90%;
+      margin: 20px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .community-page {
+      flex-direction: column;
+  }
+
+  .community-container {
+      max-width: 100%;
+      margin: 0;
+      border-radius: 0;
+      border: none;
+  }
+}
